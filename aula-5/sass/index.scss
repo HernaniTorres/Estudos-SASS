@@ -1,0 +1,15 @@
+@mixin text-style($color, $font-size, $font-family) {
+    color: $color;
+    font-size: $font-size;
+    font-family: $font-family;
+}
+
+.texts {
+    h1 {
+        @include text-style(#ff4043, 32px, 'Segoe UI')
+    }
+    p {
+        @include text-style(#004466, 22px, 'Franklin Gothic Medium')
+    }
+
+}

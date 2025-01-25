@@ -1,0 +1,28 @@
+#title {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.btn {
+    width: 100px;
+    padding: 10px 15px;
+    background-color: $btn-background; 
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+}
+
+p {
+    color: $secundary-color;
+}
+
+h1 {
+    color: $primary-color;
+}
+
+@mixin text-style ($color, $font-size, $font-family) {
+    color: $color;
+    font-size: $font-size;
+    font-family: $font-family;
+}
